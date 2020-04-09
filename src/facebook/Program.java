@@ -21,7 +21,18 @@ public class Program {
 		p1.addComment(c1);
 		p1.addComment(c2);
 		
+		Comment c3 = new Comment("have a nice beer trip!");
+		Comment c4 = new Comment("Wow that's awesome, I wish a good trip");
+		Post p2 = new Post("Traveling to Germany","I'm going to drink all",23, sdf.parse("17/06/2020 10:00:00"));
+		
+
+		
+		p2.addComment(c3);
+		p2.addComment(c4);
+		
+		
 		System.out.println(p1);
+		System.out.println(p2);
 	}
 
 }
